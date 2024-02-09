@@ -10,7 +10,7 @@ CREATE TABLE CEOs
 )
 GO
 BULK INSERT CEOs
-FROM 'https://drive.google.com/file/d/1nyP-GncolPVMVdIk2My460dhC2VeRRD9/view?usp=drive_link' --Change this location as  appropriate for you
+FROM 'https://raw.githubusercontent.com/aishwarya13-r/DAB203/main/ceos.csv' --Change this location as  appropriate for you
 WITH
 (
     FIRSTROW = 2,
@@ -32,7 +32,7 @@ CREATE TABLE CTOs
 )
 GO
 BULK INSERT CTOs
-FROM 'https://drive.google.com/file/d/1GskLTt8H0GSIF8sPt43EFZKADv4GtaMM/view?usp=drive_link' --Change this location as  appropriate for you
+FROM 'https://raw.githubusercontent.com/aishwarya13-r/DAB203/main/ctos.csv' --Change this location as  appropriate for you
 WITH
 (
     FIRSTROW = 2,
@@ -53,7 +53,7 @@ CREATE TABLE Presidents
 )
 GO
 BULK INSERT Presidents
-FROM 'https://drive.google.com/file/d/1nYxfAgL2MRYji5_2JWZw15BTS8xJafqm/view?usp=drive_link' --Change this location as  appropriate for you
+FROM 'https://github.com/aishwarya13-r/DAB203/blob/main/presidents.csv' --Change this location as  appropriate for you
 WITH
 (
     FIRSTROW = 2,
@@ -74,7 +74,7 @@ CREATE TABLE Companies
 )
 GO
 BULK INSERT Companies
-FROM 'https://drive.google.com/file/d/1pvU0mb9W5tTlHRT0N280w9Mbsq_qAuBH/view?usp=drive_link' --Change this location as  appropriate for you
+FROM 'https://raw.githubusercontent.com/aishwarya13-r/DAB203/main/companies.csv' --Change this location as  appropriate for you
 WITH
 (
     FIRSTROW = 2,
