@@ -30,10 +30,10 @@ INSERT INTO books (book_title, author_id, genre_id, publisher_id, publication_ye
 VALUES ('To Kill a Mockingbird', 4, 4, 4, 1960);
 
 INSERT INTO books (book_title, author_id, genre_id, publisher_id, publication_year) 
-VALUES ('The Shining', 1, 1, 1, 1977);
+VALUES ('The Shining', 1, 1, 2, 1977);
 
 INSERT INTO books (book_title, author_id, genre_id, publisher_id, publication_year) 
-VALUES ('Pet Sematary', 1, 1, 1, 1983);
+VALUES ('Pet Sematary', 1, 1, 2, 1983);
 
 INSERT INTO books (book_title, author_id, genre_id, publisher_id, publication_year) 
 VALUES ('Harry Potter and the Chamber of Secrets', 2, 2, 2, 1998);
