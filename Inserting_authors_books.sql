@@ -58,34 +58,24 @@ INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold)
 VALUES (1, '2024-02-13', 19.99, 100);
 
 INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
-VALUES (2, '2024-02-13', 14.99, 150);
+VALUES (2, '2024-02-14', 14.99, 150);
 
 INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
-VALUES (3, '2024-02-13', 9.99, 80);
+VALUES (3, '2024-02-15', 9.99, 80);
 
 INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
-VALUES (4, '2024-02-13', 12.99, 120);
+VALUES (4, '2024-02-16', 12.99, 120);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (1, 1, '2024-02-13', 25.99);
+INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
+VALUES (5, '2024-02-17', 22.99, 90);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (2, 2, '2024-02-14', 15.99);
+INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
+VALUES (6, '2024-02-18', 18.49, 110);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (3, 3, '2024-02-15', 30.50);
+INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
+VALUES (7, '2024-02-19', 24.99, 70);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (4, 4, '2024-02-16', 20.75);
+INSERT INTO book_sales (book_id, sale_date, sale_price, quantity_sold) 
+VALUES (8, '2024-02-20', 29.00, 85);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (5, 5, '2024-02-17', 18.99);
 
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (6, 6, '2024-02-18', 22.49);
-
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (7, 7, '2024-02-19', 27.99);
-
-INSERT INTO sales (book_id, customer_id, sale_date, sale_amount) 
-VALUES (8, 8, '2024-02-20', 32.00);
