@@ -1,5 +1,4 @@
 
-USE [final exam]
 -- Table structure for table `shippers`
 CREATE TABLE shippers (
   ShipperID int NOT NULL PRIMARY KEY,
