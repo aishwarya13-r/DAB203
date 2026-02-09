@@ -1,14 +1,4 @@
-PRAGMA foreign_keys = OFF;
 
-DELETE FROM dependents;
-DELETE FROM employees;
-DELETE FROM departments;
-DELETE FROM jobs;
-DELETE FROM locations;
-DELETE FROM countries;
-DELETE FROM regions;
-
-PRAGMA foreign_keys = ON;
 
 /* =========================================================
    ENABLE FOREIGN KEYS (SQLite / Programiz)
@@ -121,3 +111,16 @@ CREATE TABLE dependents (
         ON DELETE CASCADE
         ON UPDATE CASCADE
 );
+
+PRAGMA foreign_keys = OFF;
+
+DELETE FROM dependents;
+DELETE FROM employees;
+DELETE FROM departments;
+DELETE FROM jobs;
+DELETE FROM locations;
+DELETE FROM countries;
+DELETE FROM regions;
+
+PRAGMA foreign_keys = ON;
+
