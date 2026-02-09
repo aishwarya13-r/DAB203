@@ -1,8 +1,4 @@
 
-
-/* =========================================================
-   ENABLE FOREIGN KEYS (SQLite / Programiz)
-   ========================================================= */
 PRAGMA foreign_keys = ON;
 
 /* =========================================================
@@ -123,4 +119,5 @@ DELETE FROM countries;
 DELETE FROM regions;
 
 PRAGMA foreign_keys = ON;
+
 
